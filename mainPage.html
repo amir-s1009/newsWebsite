@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html dir="rtl"   >
+<head>
+<title> main page </title>
+<meta charset="utf-8" />
+<style>
+    select{
+        padding: 15px;
+        background-color: white;
+        border-radius:8px; 
+        border: 0;
+        margin-left: 20px;
+        font-size: 20px;
+        
+        
+        
+    }
+    
+    option{
+        background-color: khaki;
+        border-radius: 10px;
+        
+    }
+    #d1{
+        display: flex;
+        margin-right: 18px;
+        justify-content: flex-start
+        
+        
+    }
+    #d2{
+        background-color: darkgray;
+        color: azure;
+        border-radius: 8px;
+        padding: 10px;
+        
+        
+        
+    }
+    header{
+        background-color: darkkhaki;
+        color:azure;
+        padding: 20px;
+        margin: 8px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 16px;
+        justify-content: space-between;
+        
+        
+        
+        
+    }
+    
+    header:hover{
+        background-color: khaki;
+        color:azure;
+        padding: 20px;
+        margin: 8px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 16px;
+        justify-content: space-between;
+        
+        
+        
+        
+        
+    }
+    a{
+      text-decoration: none;
+        color: azure;
+        font-size: 18px;
+        
+    }
+    #s1{
+        border-radius: 8px;
+        height: 35px;
+        border: 0;
+        
+        
+    }
+    
+    #l1{        
+        position:relative;
+    
+        
+    
+    }
+    
+    .background-page {
+    background-color:khaki;
+    margin: 25px;
+    border-radius: 7px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    height:auto;
+    flex-wrap: nowrap;
+    }
+    
+    .title-image{
+    background-color: beige;
+    margin: 10px;
+    border-radius: 10px;
+    width: 600px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+        
+    }
+    
+    .margin-news{
+    background-color:beige;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+    padding: 1%;
+    max-height: 350px;
+    overflow-y: scroll;
+        
+    
+        
+        
+    
+        
+        
+    
+    }
+    img{
+    width: 590px;
+     height: auto;
+    border-radius: 10px;
+        
+    
+    }
+    
+    img:hover{
+    width: 590px;
+     height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+        
+    
+    }
+    
+    p{
+        
+        border: 10px;
+        background-color: khaki;
+        padding: 10px;
+        border-radius: 8px;
+        color: grey;
+        
+        
+    }
+    
+     p:hover{
+        
+        border: 10px;
+        background-color: sandybrown;
+        padding: 10px;
+        border-radius: 8px;
+        color: whitesmoke;
+        cursor: pointer;
+    }
+    #d4{
+    background-color:khaki;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    margin-top: 15px;
+    border-radius: 8px;
+    align-items: center;
+        justify-content: center;
+        
+    
+    }
+    
+    .read-more{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    background-color: khaki;
+        border-radius: 10px;
+        justify-content: space-between;
+        
+    
+        
+        
+    
+    }
+    
+    .news{
+    background-color: beige;
+        border-radius: 8px;
+        width: 250px;
+        height: 300px;
+        padding: 10px;
+        margin: 10px;
+        
+        
+        
+    
+    }
+    h2{
+    text-indent: 40px;
+    }
+    
+    footer{
+        margin-bottom: 15px;
+        margin-left: 25px;
+        margin-right: 25px;
+        background-color: darkkhaki;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 20px;
+    }
+    
+    footer:hover{
+        margin-bottom: 15px;
+        margin-left: 25px;
+        margin-right: 25px;
+        background-color: khaki;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 20px;
+    }
+    
+    .footer-div{
+        padding:20px;
+        margin: 20px;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        color: gray;
+    }
+    ul{
+        font-size: 20px;
+         
+    
+    }
+    
+    
+    
+    
+        
+    
+    
+
+</style>
+
+
+
+
+
+
+
+</head>
+
+<body>
+<header>
+    <h2>خوش آمدید</h2>
+    <h1>پایگاه خبری پارس نیوز</h1>
+    <a href="login.html">ثبت نام / ورود</a>
+</header>
+
+
+<div id="d1">
+<select name="سیاسی">
+    <option> تحولات خاورمیانه </option>
+    <option> انتخابات </option>
+    <option> احزاب سیاسی </option>
+    <option> برجام </option>
+</select>
+    
+<select name="ورزشی">
+    <option> آخرین اخبار تیم ملی </option>
+    <option> باشگاه های لیگ برتر </option>
+    <option> حواشی </option>
+    <option> جام جهانی </option>
+</select>
+    
+    <select name="بین الملل">
+    <option> افغانستان </option>
+    <option> شرق </option>
+    <option> بحران اوکراین </option>
+    <option> سرزمین اشغالی </option>
+    </select>
+</div>
+    
+    
+ 
+<div class="background-page">
+    <div  class="title-image">
+        <img src="title image.jpg">
+        <div id="d4"><span>فوری: اتحاد کشور های منطقه علیه دخالت های بلوک غرب</span></div> 
+    </div>
+    
+    <div  class="margin-news">
+        <p>تداوم تعطیلی های مدارس در پی آلودگی هوا</p>
+        <p>رییس جمهور:به زودی اغتشاشات جمع میشود</p>   
+        <p>وزیر اقتصاد:مسئله مرغ حل شدنی است</p>   
+        <p>در حاشیه هیئت دولت:میزان همسان سازی حقوق بازنشگان تامین اجتماعی 38 درصد است</p>   
+        <p>تورم ماهانه آذرماه 58.6 درصد گزارش شده است</p>   
+    </div>
+  
+
+</div>
+    
+<h2>> بیشتر بخوانید</h2>
+<div class="read-more"> 
+    <div class="news"></div>
+    <div class="news"></div>
+    <div class="news"></div>
+    <div class="news"></div>
+</div>
+    
+<footer>
+    <div class="footer-div">
+        <ul>
+            <li>ارتباط با بخش مدیریت سایت</li>
+            <li>اصندوق انتقادات و پیشنهادات</li>
+            <li>روابط عمومی</li>
+        
+        </ul>
+    </div>
+    
+    <div  class="footer-div">
+        <ul>
+            <li>خبرخوان</li>
+            <li>دانلود اپلیکیشن</li>
+            <li>آرشیو</li>
+        </ul>
+    </div>
+</footer>
+
+    
+</body>
+</html>

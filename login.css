@@ -1,0 +1,81 @@
+body{
+    background-image: url(background.jpg)
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+    padding: 10px 30px;
+    margin: 10px 20px;
+    color: cadetblue;
+    border-radius: 15px;
+    transition: background-color 1s;
+}
+header:hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: navajowhite;
+    padding: 10px 30px;
+    margin: 10px 20px;
+    color: cadetblue;
+    border-radius: 15px;
+}
+#return{
+    font-size: 17px;
+    text-decoration: none;
+    color: inherit;
+}
+#title{
+    font-size: 27px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 30%;
+    margin-top: 6%;
+    
+}
+label{
+    color: antiquewhite;
+}
+input{
+    border-radius: 30px;
+    padding: 10px;
+    margin: 15px 0px;
+    background-color: skyblue;
+    border: 0;
+    color: white;
+    outline: none;
+    
+    transition: background-color 1s;
+}
+input:hover{
+    border-radius: 30px;
+    padding: 10px;
+    margin: 15px 0px;
+    background-color: blueviolet;
+    border: 0;
+    outline: 0;
+}
+#submit{
+    margin: 15px 30%;
+    background-color: cadetblue;
+    color:white;
+}
+#submit:hover{
+    margin: 15px 30%;
+    background-color: skyblue;
+    color:white;
+    cursor: pointer;
+}
+#sign-up{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: blueviolet;
+}
